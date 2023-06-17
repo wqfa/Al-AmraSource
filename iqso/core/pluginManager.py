@@ -130,7 +130,7 @@ async def restart_script(client: TelegramClient, sandy):
 
     executable = sys.executable.replace(" ", "\\ ")
 
-    args = [executable, "-m", "iqthon"]
+    args = [executable, "-m", "princes"]
 
     os.execle(executable, *args, os.environ)
 
